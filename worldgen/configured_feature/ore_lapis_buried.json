@@ -5,24 +5,26 @@
         "feature": {
           "config": {
             "target": {
-              "tag": "minecraft:base_stone_nether",
+              "tag": "minecraft:base_stone_overworld",
               "predicate_type": "minecraft:tag_match"
             },
             "state": {
-              "Name": "minecraft:ancient_debris"
+              "Name": "minecraft:lapis_ore"
             },
-            "size": 3
+            "size": 7
           },
           "type": "minecraft:no_surface_ore"
         },
         "decorator": {
           "config": {
-            "baseline": {
-              "absolute": 16
+            "bottom_inclusive": {
+              "above_bottom": 0
             },
-            "spread": 8
+            "top_inclusive": {
+              "absolute": 64
+            }
           },
-          "type": "minecraft:depth_average"
+          "type": "minecraft:range"
         }
       },
       "type": "minecraft:decorated"

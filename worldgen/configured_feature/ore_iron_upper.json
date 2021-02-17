@@ -5,19 +5,26 @@
         "feature": {
           "config": {
             "feature": {
-              "config": {},
-              "type": "minecraft:weeping_vines"
+              "config": {
+                "target": {
+                  "tag": "minecraft:base_stone_overworld",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Name": "minecraft:iron_ore"
+                },
+                "size": 9
+              },
+              "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
-                "bottom_inclusive": {
-                  "above_bottom": 0
+                "baseline": {
+                  "absolute": 256
                 },
-                "top_inclusive": {
-                  "below_top": 0
-                }
+                "spread": 128
               },
-              "type": "minecraft:range"
+              "type": "minecraft:depth_average"
             }
           },
           "type": "minecraft:decorated"
@@ -31,7 +38,7 @@
     },
     "decorator": {
       "config": {
-        "count": 10
+        "count": 40
       },
       "type": "minecraft:count"
     }

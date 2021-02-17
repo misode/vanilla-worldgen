@@ -5,19 +5,29 @@
         "feature": {
           "config": {
             "feature": {
-              "config": {},
-              "type": "minecraft:weeping_vines"
+              "config": {
+                "target": {
+                  "tag": "minecraft:base_stone_overworld",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Properties": {
+                    "lit": "false"
+                  },
+                  "Name": "minecraft:redstone_ore"
+                },
+                "size": 8
+              },
+              "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
-                "bottom_inclusive": {
+                "baseline": {
                   "above_bottom": 0
                 },
-                "top_inclusive": {
-                  "below_top": 0
-                }
+                "spread": 32
               },
-              "type": "minecraft:range"
+              "type": "minecraft:depth_average"
             }
           },
           "type": "minecraft:decorated"
@@ -31,7 +41,7 @@
     },
     "decorator": {
       "config": {
-        "count": 10
+        "count": 12
       },
       "type": "minecraft:count"
     }
