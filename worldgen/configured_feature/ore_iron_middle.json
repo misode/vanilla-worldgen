@@ -9,29 +9,36 @@
                 "targets": [
                   {
                     "target": {
-                      "block": "minecraft:netherrack",
-                      "predicate_type": "minecraft:block_match"
+                      "tag": "minecraft:stone_ore_replaceables",
+                      "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
-                      "Name": "minecraft:nether_gold_ore"
+                      "Name": "minecraft:iron_ore"
+                    }
+                  },
+                  {
+                    "target": {
+                      "tag": "minecraft:deepslate_ore_replaceables",
+                      "predicate_type": "minecraft:tag_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:deepslate_iron_ore"
                     }
                   }
                 ],
-                "size": 10,
+                "size": 9,
                 "discard_chance_on_air_exposure": 0.0
               },
               "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
-                "bottom_inclusive": {
-                  "above_bottom": 10
+                "baseline": {
+                  "absolute": 32
                 },
-                "top_inclusive": {
-                  "below_top": 10
-                }
+                "spread": 48
               },
-              "type": "minecraft:range"
+              "type": "minecraft:depth_average"
             }
           },
           "type": "minecraft:decorated"
@@ -45,7 +52,7 @@
     },
     "decorator": {
       "config": {
-        "count": 20
+        "count": 10
       },
       "type": "minecraft:count"
     }
