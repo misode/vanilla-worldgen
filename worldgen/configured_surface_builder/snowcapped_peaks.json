@@ -4,10 +4,10 @@
       "Name": "minecraft:snow_block"
     },
     "under_material": {
-      "Name": "minecraft:dirt"
+      "Name": "minecraft:snow_block"
     },
     "underwater_material": {
-      "Name": "minecraft:gravel"
+      "Name": "minecraft:stone"
     }
   },
   "type": "minecraft:snowcapped_peaks"

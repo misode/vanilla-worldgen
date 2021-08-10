@@ -6,12 +6,12 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7972607,
+    "sky_color": 8233727,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:snowcapped_peaks",
+  "surface_builder": "minecraft:stony_peaks",
   "carvers": {
     "air": [
       "minecraft:prototype_cave",
@@ -66,9 +66,6 @@
       "minecraft:prototype_glow_lichen",
       "minecraft:prototype_spring_water",
       "minecraft:spring_lava"
-    ],
-    [
-      "minecraft:freeze_top_layer"
     ]
   ],
   "starts": [
@@ -158,8 +155,8 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "snow",
-  "temperature": -0.7,
-  "downfall": 0.9,
+  "precipitation": "rain",
+  "temperature": 1.0,
+  "downfall": 0.3,
   "category": "mountain"
 }

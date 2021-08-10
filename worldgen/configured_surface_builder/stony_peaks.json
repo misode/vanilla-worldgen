@@ -1,14 +1,14 @@
 {
   "config": {
     "top_material": {
-      "Name": "minecraft:snow_block"
+      "Name": "minecraft:stone"
     },
     "under_material": {
-      "Name": "minecraft:snow_block"
+      "Name": "minecraft:stone"
     },
     "underwater_material": {
       "Name": "minecraft:gravel"
     }
   },
-  "type": "minecraft:snowy_slopes"
+  "type": "minecraft:stony_peaks"
 }

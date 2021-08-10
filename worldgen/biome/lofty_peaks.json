@@ -74,7 +74,8 @@
   "starts": [
     "minecraft:mineshaft",
     "minecraft:stronghold",
-    "minecraft:ruined_portal_mountain"
+    "minecraft:ruined_portal_mountain",
+    "minecraft:pillager_outpost"
   ],
   "spawners": {
     "monster": [
@@ -131,8 +132,8 @@
       {
         "type": "minecraft:goat",
         "weight": 5,
-        "minCount": 4,
-        "maxCount": 6
+        "minCount": 1,
+        "maxCount": 3
       }
     ],
     "ambient": [
@@ -160,5 +161,5 @@
   "precipitation": "snow",
   "temperature": -0.7,
   "downfall": 0.9,
-  "category": "plains"
+  "category": "mountain"
 }

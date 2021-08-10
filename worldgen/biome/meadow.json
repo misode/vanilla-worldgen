@@ -78,7 +78,9 @@
   "starts": [
     "minecraft:mineshaft",
     "minecraft:stronghold",
-    "minecraft:ruined_portal_mountain"
+    "minecraft:ruined_portal_mountain",
+    "minecraft:village_plains",
+    "minecraft:pillager_outpost"
   ],
   "spawners": {
     "monster": [
@@ -176,5 +178,5 @@
   "precipitation": "rain",
   "temperature": 0.5,
   "downfall": 0.8,
-  "category": "plains"
+  "category": "mountain"
 }
