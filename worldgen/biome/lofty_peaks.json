@@ -1,0 +1,98 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "surface_builder": "minecraft:lofty_peaks",
+  "carvers": {
+    "air": [
+      "minecraft:prototype_cave",
+      "minecraft:prototype_cave_extra_underground",
+      "minecraft:prototype_canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_water",
+      "minecraft:lake_lava"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:prototype_ore_dirt",
+      "minecraft:prototype_ore_gravel",
+      "minecraft:prototype_ore_granite",
+      "minecraft:prototype_ore_diorite",
+      "minecraft:prototype_ore_andesite",
+      "minecraft:prototype_ore_tuff",
+      "minecraft:prototype_ore_coal_upper",
+      "minecraft:prototype_ore_coal_lower",
+      "minecraft:prototype_ore_iron_upper",
+      "minecraft:prototype_ore_iron_middle",
+      "minecraft:prototype_ore_iron_small",
+      "minecraft:prototype_ore_gold",
+      "minecraft:prototype_ore_redstone",
+      "minecraft:prototype_ore_redstone_lower",
+      "minecraft:prototype_ore_diamond",
+      "minecraft:prototype_ore_diamond_large",
+      "minecraft:prototype_ore_lapis",
+      "minecraft:prototype_ore_lapis_buried",
+      "minecraft:prototype_ore_copper",
+      "minecraft:prototype_underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:prototype_glow_lichen",
+      "minecraft:prototype_spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal_mountain"
+  ],
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "minecraft:goat",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "ambient": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "snow",
+  "temperature": -0.7,
+  "downfall": 0.9,
+  "category": "plains"
+}
