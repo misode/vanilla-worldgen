@@ -3,10 +3,10 @@
   "generator": {
     "biome_source": {
       "preset": "minecraft:nether",
-      "seed": 3613389083791300752,
+      "seed": -2225243649784052588,
       "type": "minecraft:multi_noise"
     },
-    "seed": 3613389083791300752,
+    "seed": -2225243649784052588,
     "settings": "minecraft:nether",
     "type": "minecraft:noise"
   }
