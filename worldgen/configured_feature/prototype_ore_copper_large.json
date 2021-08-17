@@ -13,7 +13,7 @@
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
-                      "Name": "minecraft:iron_ore"
+                      "Name": "minecraft:copper_ore"
                     }
                   },
                   {
@@ -22,11 +22,11 @@
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
-                      "Name": "minecraft:deepslate_iron_ore"
+                      "Name": "minecraft:deepslate_copper_ore"
                     }
                   }
                 ],
-                "size": 9,
+                "size": 20,
                 "discard_chance_on_air_exposure": 0.0
               },
               "type": "minecraft:ore"
@@ -35,12 +35,12 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "absolute": -24
+                    "absolute": 0
                   },
                   "max_inclusive": {
-                    "absolute": 56
+                    "absolute": 63
                   },
-                  "type": "minecraft:trapezoid"
+                  "type": "minecraft:uniform"
                 }
               },
               "type": "minecraft:range"
@@ -57,7 +57,7 @@
     },
     "decorator": {
       "config": {
-        "count": 10
+        "count": 8
       },
       "type": "minecraft:count"
     }

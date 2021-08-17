@@ -36,9 +36,12 @@
     [
       "minecraft:prototype_ore_dirt",
       "minecraft:prototype_ore_gravel",
-      "minecraft:prototype_ore_granite",
-      "minecraft:prototype_ore_diorite",
-      "minecraft:prototype_ore_andesite",
+      "minecraft:prototype_ore_granite_upper",
+      "minecraft:prototype_ore_granite_lower",
+      "minecraft:prototype_ore_diorite_upper",
+      "minecraft:prototype_ore_diorite_lower",
+      "minecraft:prototype_ore_andesite_upper",
+      "minecraft:prototype_ore_andesite_lower",
       "minecraft:prototype_ore_tuff",
       "minecraft:prototype_ore_coal_upper",
       "minecraft:prototype_ore_coal_lower",
@@ -73,9 +76,6 @@
       "minecraft:spring_lava",
       "minecraft:patch_melon",
       "minecraft:prototype_vines"
-    ],
-    [
-      "minecraft:freeze_top_layer"
     ]
   ],
   "starts": [
