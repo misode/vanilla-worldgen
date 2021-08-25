@@ -60,6 +60,8 @@
     [
       "minecraft:patch_tall_grass_2",
       "minecraft:prototype_glow_lichen",
+      "minecraft:prototype_spring_water",
+      "minecraft:spring_lava",
       "minecraft:lush_caves_ceiling_vegetation",
       "minecraft:cave_vines",
       "minecraft:lush_caves_clay",
