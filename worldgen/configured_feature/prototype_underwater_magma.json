@@ -6,7 +6,7 @@
           "config": {
             "feature": {
               "config": {
-                "min_distance_below_surface": 5,
+                "min_distance_below_surface": 1,
                 "floor_search_range": 5,
                 "placement_radius_around_floor": 1,
                 "placement_probability_per_valid_position": 0.5
@@ -42,8 +42,8 @@
         "count": {
           "type": "minecraft:uniform",
           "value": {
-            "min_inclusive": 12,
-            "max_inclusive": 25
+            "min_inclusive": 18,
+            "max_inclusive": 30
           }
         }
       },
