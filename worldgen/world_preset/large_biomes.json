@@ -11,6 +11,16 @@
         "type": "minecraft:noise"
       }
     },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "settings": "minecraft:end",
+        "type": "minecraft:noise"
+      }
+    },
     "minecraft:overworld": {
       "type": "minecraft:overworld",
       "generator": {
@@ -19,16 +29,6 @@
           "type": "minecraft:multi_noise"
         },
         "settings": "minecraft:large_biomes",
-        "type": "minecraft:noise"
-      }
-    },
-    "minecraft:the_end": {
-      "type": "minecraft:the_end",
-      "generator": {
-        "biome_source": {
-          "type": "minecraft:the_end"
-        },
-        "settings": "minecraft:end",
         "type": "minecraft:noise"
       }
     }
