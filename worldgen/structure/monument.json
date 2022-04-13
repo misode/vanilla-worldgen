@@ -12,11 +12,11 @@
         }
       ]
     },
-    "axolotls": {
+    "underground_water_creature": {
       "bounding_box": "full",
       "spawns": []
     },
-    "underground_water_creature": {
+    "axolotls": {
       "bounding_box": "full",
       "spawns": []
     }
